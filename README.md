@@ -1,5 +1,5 @@
 
-1. Найдите, где перечислены все доступные resource и data_source, приложите ссылку на эти строки в коде на гитхабе:
+1.Найдите, где перечислены все доступные resource и data_source, приложите ссылку на эти строки в коде на гитхабе:
 
 ResourcesMap: map[string]*schema.Resource
 
@@ -9,7 +9,7 @@ DataSourcesMap: map[string]*schema.Resource
 
 <https://github.com/hashicorp/terraform-provider-aws/blob/8e4d8a3f3f781b83f96217c2275f541c893fec5a/aws/provider.go#L169>
 
-2. Для создания очереди сообщений SQS используется ресурс aws_sqs_queue у которого есть параметр name.
+2.Для создания очереди сообщений SQS используется ресурс aws_sqs_queue у которого есть параметр name.
 
 2.1 С каким другим параметром конфликтует name? Приложите строчку кода, в которой это указано.
 
